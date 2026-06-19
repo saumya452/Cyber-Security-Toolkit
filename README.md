@@ -1,20 +1,25 @@
 # Cyber-Security-Toolkit
 
-A collection of Python-based cybersecurity tools.
+A collection of Python-based password security tools.
 
 ## Tools Included
 
 ### Password Generator
-Generates strong random passwords.
+Generates strong random passwords using letters, numbers, and special characters.
 
 ### Password Strength Checker
-Checks password strength and provides recommendations.
-
-### SHA-256 Hash Checker
-Calculates file hashes for integrity verification.
+Checks password strength based on:
+- Password length
+- Uppercase letters
+- Lowercase letters
+- Numbers
+- Special characters
 
 ## Technologies Used
 - Python
 
-## Purpose
-This toolkit demonstrates fundamental cybersecurity concepts such as password security and file integrity verification.
+## How to Run
+
+### Password Generator
+```bash
+python password_generator.py
